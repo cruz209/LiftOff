@@ -8,13 +8,12 @@ version = "0.1.0"
 description = "KickstartAI: a lightweight scaffolding engine that turns natural language prompts into full project structures."
 readme = "README.md"
 authors = [
-  { name="Christopher Cruz", email="cchris2004@gmail.com" } 
+  { name = "Christopher Cruz", email = "cchris2004@gmail.com" }
 ]
 license = { text = "MIT" }
 requires-python = ">=3.9"
-dependencies = [
-]
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/cruz209/kickstart-ai"
-
+Issues = "https://github.com/cruz209/kickstart-ai/issues"
