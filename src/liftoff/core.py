@@ -103,15 +103,15 @@ from __future__ import annotations
 import os
 from typing import Dict, Optional
 
-# Correct paths based on your codebase structure
-from utils.intent_parser import parse_intent
-from utils.meta_prompt import build_meta_prompt
-from utils.file_writer import write_file_tree
-from utils.validator import validate_file_tree
+
+from liftoff.utils.intent_parser import parse_intent
+from liftoff.utils.meta_prompt import build_meta_prompt
+from liftoff.utils.file_writer import write_file_tree
+from liftoff.utils.validator import validate_file_tree
 
 # Backends
-from .backend.openai_backend import OpenAIBackend
-from .backend.hf_backend import HuggingFaceBackend
+from liftoff.backend.openai_backend import OpenAIBackend
+from liftoff.backend.hf_backend import HuggingFaceBackend
 
 
 class LiftOff:
