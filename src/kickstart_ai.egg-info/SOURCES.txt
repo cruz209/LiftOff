@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/kickstart_ai.egg-info/PKG-INFO
+src/kickstart_ai.egg-info/SOURCES.txt
+src/kickstart_ai.egg-info/dependency_links.txt
+src/kickstart_ai.egg-info/top_level.txt
+src/liftoff/__init__.py
+src/liftoff/core.py
+src/liftoff/backend/__init__.py
+src/liftoff/backend/hf_backend.py
+src/liftoff/backend/openai_backend.py
+src/liftoff/utils/__init__.py
+src/liftoff/utils/file_writer.py
+src/liftoff/utils/intent_parser.py
+src/liftoff/utils/meta_prompt.py
+src/liftoff/utils/validator.py
