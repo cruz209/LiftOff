@@ -50,3 +50,8 @@ v2 — intent classifier + safety layer
 v3 — plug-and-play local models (llama.cpp, GGUF)
 
 v4 — interactive generation / iterative refinement
+
+Example code: 
+if name == "main":
+    lf = LiftOff()  # relies on OPENAI_API_KEY or HUGGINGFACE_TOKEN env var
+    lf.create("Create a simple Flask RAG (retrieval augmented generation) app that can upload PDFs and ask questions about them using the OpenAI Api key.")
