@@ -52,6 +52,9 @@ v3 — plug-and-play local models (llama.cpp, GGUF)
 v4 — interactive generation / iterative refinement
 
 Example code: 
+import liftoff
+from liftoff import Liftoff
+
 if name == "main":
 
     lf = LiftOff()  # relies on OPENAI_API_KEY or HUGGINGFACE_TOKEN env var
