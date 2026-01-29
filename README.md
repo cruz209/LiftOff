@@ -51,7 +51,10 @@ v3 — plug-and-play local models (llama.cpp, GGUF)
 
 v4 — interactive generation / iterative refinement
 
-Example code: 
+Example code:
+
+
+
 import liftoff
 from liftoff import Liftoff
 
